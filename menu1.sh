@@ -76,7 +76,7 @@ $(ColorBlue 'Choose an option:') "
  6) all_checks ; menu;;
  0) exit 0 ;;
  *) echo -e $red"Wrong option."$clear;
-WrongCommand;;
+InvalidChoice;;
  esac
 }
 # Call the menu function
